@@ -63,5 +63,5 @@ jobs:
 
     - name: Deploy to Kubernetes
       run: |
-        kubectl apply -f k8s/api-deployment.yaml
-        kubectl apply -f k8s/ui-deployment.yaml
+        kubectl apply -f mlops-e2e-project/mlops-e2e-project/k8s/api-deployment.yaml
+        kubectl apply -f mlops-e2e-project/mlops-e2e-project/k8s/ui-deployment.yaml
