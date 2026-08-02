@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: loksai-ui-deploy
+  name: VJ-ui-deploy
 spec:
   replicas: 1
   selector:
@@ -14,14 +14,14 @@ spec:
     spec:
       containers:
       - name: ui
-        image: loksaieta/loksai-mlops830ui:latest
+        image: VJ-mlops830ui:latest
         ports:
         - containerPort: 8501
 ---
 apiVersion: v1
 kind: Service
 metadata:
-  name: loksai-ui-svc
+  name: VJ-ui-svc
 spec:
   type: NodePort
   selector:
