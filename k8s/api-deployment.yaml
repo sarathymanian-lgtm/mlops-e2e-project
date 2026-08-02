@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: api
-        image: VJ-mlops830api:latest
+        image: vj-mlops830api:latest
         ports:
         - containerPort: 8000
 ---
