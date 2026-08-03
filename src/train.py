@@ -8,11 +8,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score
 
-<<<<<<< HEAD
 S3_BUCKET = "s3mlopsvj1"
-=======
-S3_BUCKET = "loksai-edu-mlproject1"
->>>>>>> 521c783bd50ecab5abbb9f0dd52d8b26ee82401e
 S3_KEY = "latest/model.pkl"
 
 
